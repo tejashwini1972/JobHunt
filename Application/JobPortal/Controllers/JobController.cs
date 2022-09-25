@@ -66,7 +66,7 @@ namespace JobPortal.Controllers
                 post.WebUrl = postJobMV.WebUrl;
                 Db.PostJobTables.Add(post); 
                 Db.SaveChanges();
-                return RedirectToAction("CompanyJobList");
+                return RedirectToAction("CompanyJobsList");
             }
 
 
